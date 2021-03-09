@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.semanticweb.org/dalton/ontologies/2021/2/untitled-ontology-3"
+     xml:base="http://www.semanticweb.org/dalton/ontologies/2021/2/family_DALTONGILMORE"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/dalton/ontologies/2021/2/untitled-ontology-3">
+     ontologyIRI="http://www.semanticweb.org/dalton/ontologies/2021/2/family_DALTONGILMORE">
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -61,6 +61,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Male"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mary"/>
     </Declaration>
     <EquivalentClasses>
         <Class IRI="#Daughter"/>
@@ -199,10 +202,20 @@
         <NamedIndividual IRI="#Dalton"/>
         <NamedIndividual IRI="#Male"/>
     </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGender"/>
+        <NamedIndividual IRI="#Mary"/>
+        <NamedIndividual IRI="#Female"/>
+    </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#FullName"/>
         <NamedIndividual IRI="#Dalton"/>
         <Literal>Dalton Gilmore</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FullName"/>
+        <NamedIndividual IRI="#Mary"/>
+        <Literal>Mary Jost</Literal>
     </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasChild"/>
@@ -230,6 +243,18 @@
     <SymmetricObjectProperty>
         <ObjectProperty IRI="#hasSibling"/>
     </SymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasChild"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasParent"/>
+    </AsymmetricObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hasChild"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hasParent"/>
+    </IrreflexiveObjectProperty>
     <IrreflexiveObjectProperty>
         <ObjectProperty IRI="#hasSibling"/>
     </IrreflexiveObjectProperty>
