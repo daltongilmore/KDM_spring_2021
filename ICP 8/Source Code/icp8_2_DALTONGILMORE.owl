@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/dalton/ontologies/2021/2/icp8_2_DALTONGILMORE"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/dalton/ontologies/2021/2/icp8_2_DALTONGILMORE">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Challenge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Control"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Daughter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Degree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Energy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#McCain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Obama"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Office"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Package"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Presidency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#President"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Republicans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#School"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Senate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Term"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Time"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#announce"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#begin"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#defeat"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#devote"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#earn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#face"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#finish"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#implement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#leave"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#spend"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#take"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#win"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Obama"/>
+        <Class IRI="#President"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Administration"/>
+        <Class IRI="#Republicans"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Daughter"/>
+        <Class IRI="#Obama"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Office"/>
+        <Class IRI="#Presidency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Term"/>
+        <Class IRI="#Presidency"/>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#devote"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#announce"/>
+        <Class IRI="#Obama"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#begin"/>
+        <Class IRI="#Obama"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#defeat"/>
+        <Class IRI="#Obama"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#devote"/>
+        <Class IRI="#Obama"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#earn"/>
+        <Class IRI="#Obama"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#face"/>
+        <Class IRI="#Obama"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#finish"/>
+        <Class IRI="#Daughter"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#implement"/>
+        <Class IRI="#Administration"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#leave"/>
+        <Class IRI="#Obama"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#spend"/>
+        <Class IRI="#Obama"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#take"/>
+        <Class IRI="#Obama"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#win"/>
+        <Class IRI="#Republicans"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#announce"/>
+        <Class IRI="#Plans"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#begin"/>
+        <Class IRI="#Term"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#defeat"/>
+        <Class IRI="#McCain"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#devote"/>
+        <Class IRI="#Energy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#earn"/>
+        <Class IRI="#Degree"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#face"/>
+        <Class IRI="#Challenge"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#finish"/>
+        <Class IRI="#School"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#implement"/>
+        <Class IRI="#Package"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#leave"/>
+        <Class IRI="#Presidency"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#leave"/>
+        <Class IRI="#President"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#spend"/>
+        <Class IRI="#Time"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#take"/>
+        <Class IRI="#Office"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#win"/>
+        <Class IRI="#Control"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#win"/>
+        <Class IRI="#Senate"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

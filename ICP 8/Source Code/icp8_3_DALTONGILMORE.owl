@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/dalton/ontologies/2021/2/icp8_3_DALTONGILMORE"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/dalton/ontologies/2021/2/icp8_3_DALTONGILMORE">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Author"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#COVID-19"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coronavirus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Databases"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dissemination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Effort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emphasis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Findings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frontline_Health_Professionals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Goals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Health_Emergency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Knowledge_Exchange"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Policy_Makers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Research"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Research_Community"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Research_Interest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Researchers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Statement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strategy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#We"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#accomplish"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#benefit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#declare"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#encourage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#facilitate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#garner"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#improve"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#make"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#search"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Author"/>
+        <Class IRI="#We"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#COVID-19"/>
+        <Class IRI="#Coronavirus"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Emphasis"/>
+        <Class IRI="#Research"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Findings"/>
+        <Class IRI="#Research"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Knowledge_Exchange"/>
+        <Class IRI="#Research"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Research_Community"/>
+        <Class IRI="#Researchers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Research_Interest"/>
+        <Class IRI="#Research"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Researchers"/>
+        <Class IRI="#Research"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Statement"/>
+        <Class IRI="#Researchers"/>
+    </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#accomplish"/>
+        <Class IRI="#Dissemination"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#benefit"/>
+        <Class IRI="#Findings"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#declare"/>
+        <Class IRI="#Coronavirus"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#encourage"/>
+        <Class IRI="#Statement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#facilitate"/>
+        <Class IRI="#Emphasis"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#garner"/>
+        <Class IRI="#COVID-19"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#improve"/>
+        <Class IRI="#Strategy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#make"/>
+        <Class IRI="#Research_Community"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#search"/>
+        <Class IRI="#We"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#accomplish"/>
+        <Class IRI="#Goals"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#benefit"/>
+        <Class IRI="#Frontline_Health_Professionals"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#benefit"/>
+        <Class IRI="#Policy_Makers"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#declare"/>
+        <Class IRI="#Health_Emergency"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#encourage"/>
+        <Class IRI="#Researchers"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#facilitate"/>
+        <Class IRI="#Knowledge_Exchange"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#garner"/>
+        <Class IRI="#Research_Interest"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#improve"/>
+        <Class IRI="#Strategy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#make"/>
+        <Class IRI="#Effort"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#search"/>
+        <Class IRI="#Databases"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
